@@ -53,7 +53,7 @@ List<int> getAllFactors(int num) {
   List<int> resultList = [];
 
   //since we will always get a positive integer hence
-  if (num < 0) return resultList; // we will return a empty list in that case
+  if (num <= 0) return resultList; // we will return a empty list in that case
 
   for (int i = 1; i <= num ~/ 2; i++) {
     if (num % i == 0) {
