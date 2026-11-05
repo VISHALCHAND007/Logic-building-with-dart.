@@ -32,7 +32,7 @@ Examples:
   
   */
 
-  print(secondLargestNum(999));
+  print(secondLargestNum(98768));
 }
 
 bool isArmstrongNum(int num) {
@@ -66,7 +66,7 @@ int secondLargestNum(int num) {
   if (num < 0 || numOfDigits < 2)
     return -1; //because we need atleast 2 digits to find a second largest digit
 
-  int largest = 0, sLargest = -1;
+  int largest = 0, sLargest = 0;
 
   while (num > 0) {
     final lastDigit = num % 10;
