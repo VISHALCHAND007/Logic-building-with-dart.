@@ -86,6 +86,7 @@ int extractDigits(int num, int numOfDigits) {
 
       numOfDigits--;
     }
+    //since the output is reversed
     result = reverse(result);
   }
   return result;
