@@ -61,16 +61,10 @@ int getNumOfDigits(int num) {
 }
 
 int extractAndReturnSum(int num, int digitsToBeExtractedFromRight) {
-  // int totalDigitsInSq = getNumOfDigits(num);
-  // int firstPartDigits = totalDigitsInSq - digitsToBeExtractedFromRight;
+  int divisor = pow(10, digitsToBeExtractedFromRight).toInt();
 
-  // int lDivisor = pow(10, firstPartDigits).toInt();
-  int rDivisor = pow(10, digitsToBeExtractedFromRight).toInt();
-
-  int firstPart = num ~/ rDivisor;
-  int secondPart = num % rDivisor;
-  // its a hit and run, please explain why always dividing with the large divisor gives the
-  // correct output
+  int firstPart = num ~/ divisor;
+  int secondPart = num % divisor;
 
   return firstPart + secondPart;
 }
