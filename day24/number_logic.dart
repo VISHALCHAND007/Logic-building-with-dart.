@@ -55,6 +55,7 @@ int reverse(int num) {
 }
 
 bool isPrime(int num) {
+  if (num <= 1) return false;
   for (int i = 2; i * i <= num; i++) {
     if (num % i == 0) return false;
   }
@@ -65,7 +66,7 @@ bool isPrime(int num) {
 bool isTriMorphicNum(int num) {
   final cube = pow(num, 3).toInt();
 
-  final divisor = pow(10, getNumOfDigits(num));
+  final divisor = pow(10, getNumOfDigits(num)).toInt();
 
   final lastDigitsOfCube = cube % divisor;
 
