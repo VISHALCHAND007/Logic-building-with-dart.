@@ -2,22 +2,23 @@
 
 Welcome to my coding practice repository!
 
-This repository contains code and programs organized by different topics. To keep things structured and easy to navigate, **each topic has its own Git branch**.
+This repository contains coding exercises and programs organized by different topics. To keep everything structured and easy to navigate, **each topic is maintained in its own folder within the `master` branch.**
 
-### 🌿 Repository Structure
+### 📂 Repository Structure
 
-- Each branch represents a separate programming topic.
-- All related programs and practice problems are maintained within their respective branches.
-- Switch between branches to explore code for different topics.
+- Each folder represents a separate programming topic.
+- All related programs and practice problems are organized within their respective folders.
+- Dart files follow the naming convention `day*.dart` (e.g., `day1.dart`, `day2.dart`, etc.).
+- All topics and their corresponding practice files are maintained in the `master` branch.
 
 ### 🔀 How to Explore
 
 To explore a particular topic:
 
-1. Open the **Branches** section of this repository.
-2. Browse the available topic-specific branches.
-3. Switch to the branch you're interested in.
-4. Explore the code and practice examples.
+1. Open the `master` branch of this repository.
+2. Browse the folders to find your desired topic.
+3. Open the respective folder.
+4. Explore the `day*.dart` files to view the coding exercises and solutions.
 
 ### 🎯 Purpose
 
