@@ -1,5 +1,3 @@
-import '../2. Loops & Number Logic/day31.dart';
-
 void main() {
   /*
 
